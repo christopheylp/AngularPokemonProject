@@ -6,8 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title: 'zz';
-  pokemons: {name: string}[] = [
-    {name: 'pikachu'}
+  title: 'Pokeapp';
+  pokemons: {name: string, health: number, img: string}[] = [
+    {name: 'Carapuce', health: 70, img: 'assets/carapuce.png'},
+    {name: 'Dracaufeu', health: 120, img: 'assets/dracaufeu.png'}
   ];
 }

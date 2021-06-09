@@ -1,0 +1,17 @@
+.name{
+  color:white;
+  text-align: center;
+}
+
+.pokebox{
+  width: 125px;
+  border:2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
